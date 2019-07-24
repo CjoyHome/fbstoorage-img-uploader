@@ -8,11 +8,14 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/CjoyHome/vue-admin"
+    "url": "https://github.com/CjoyHome/fbstoorage-img-uploader"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "bugs": {
+    "url": "https://github.com/CjoyHome/fbstoorage-img-uploader/issues"
   },
   "dependencies": {
     "element-ui": "^2.7.0",
