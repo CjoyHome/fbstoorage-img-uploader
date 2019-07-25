@@ -3,7 +3,7 @@
   "main": "dist/fbsImgUploader.js",
   "description": "A Vue component to firebase storage upload images",
   "version": "1.0.0",
-  "author": "joy.chen <c_henjunhong@163.com>",
+  "author": "cjoy",
   "license": "MIT",
   "private": false,
   "repository": {
