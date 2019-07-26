@@ -3,7 +3,8 @@
 >这是一个基于Vue和element-ui的组件，它能够将图片上传至firebase storage
 
 ##版本 v1.0.1
-
+温馨提示：请墙后在使用firebase
+常见问题：上传超时 （墙可解决）
 ## 使用前提及配置
 项目中已引入element-ui 和 firebase
 ```
@@ -44,11 +45,15 @@ Vue.use(fbupload)//全局使用
 
 ```
 选项
-limitnum : 限制条数;
-fileurl : 上传到storage中的文件路径，不可为"";
-onchange : 上传图片时触发事件;
-onsuccess : 上传图片成功回调;
-onerror : 上传图片失败回调;
-befor-upload : 上传图片前触发事件;
-
+```
+:limitnum : 限制条数;
+:fileurl : 上传到storage中的文件路径，不可为"";
+```
+功能
+```
+@onchange : 上传图片时触发事件;
+@onsuccess : 上传图片成功回调;
+@onerror : 上传图片失败回调;
+:befor-upload : 上传图片前触发事件;
+```
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
