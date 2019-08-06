@@ -9,9 +9,9 @@ const upload = {
   }
 }
 // global 情况下 自动安装
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(upload)
-}
+// if (typeof window !== 'undefined' && window.Vue) {
+//   window.Vue.use(upload)
+// }
 
 // fbsImgUploader.install = Vue => Vue.component(fbsImgUploader.name, fbsImgUploader);//注册组件
 export default upload

@@ -2,7 +2,7 @@
   "name": "fbstorage-img-uploader",
   "main": "dist/fbsImgUploader.js",
   "description": "A Vue component to firebase storage upload images",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "cjoy",
   "license": "MIT",
   "private": false,
